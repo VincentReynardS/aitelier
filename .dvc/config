@@ -1,0 +1,6 @@
+[core]
+    remote = s3_registry
+['remote "s3_registry"']
+    url = s3://aitelier-data/raw
+    region = ap-southeast-2
+    profile = aitelier
