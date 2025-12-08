@@ -1,0 +1,6 @@
+outs:
+- md5: 5cdcb8f8795d1fb1a72bdf8ec59bf42b.dir
+  size: 3731265977
+  nfiles: 3
+  hash: md5
+  path: unzipped
