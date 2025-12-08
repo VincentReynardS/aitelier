@@ -4,10 +4,24 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "loguru>=0.7.3",
+    "pandas>=2.3.3",
+    "torch>=2.9.1",
+]
 
 [tool.uv.sources]
 aitelier-ml = { workspace = true }
 
 [tool.uv.workspace]
 members = ["aitelier-ml"]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "ipython>=9.7.0",
+    "jupyterlab>=4.5.0",
+    "numpy>=2.3.5",
+    "sentence-transformers>=5.1.2",
+    "tqdm>=4.67.1",
+]
